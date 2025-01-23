@@ -59,7 +59,12 @@ You will need Portal installed though
 
 ## Installing:
 
-Same as Source SDK 2013 mod: https://developer.valvesoftware.com/wiki/Setup_mod_on_steam
+1. Install Source SDK Base 2013 Singleplayer.
+2. Downgrade Half Life 2 to the steam_legacy beta branch.
+3. Go to where you installed the mod with the gameinfo.txt and change the "SteamAppId' to "243730".
+4. Once Half Life 2 is downgraded, go to your Half Life 2 folder, then hl2 then maps and copy everything except for "graphs" folder.
+5. Paste the maps into the mods maps folder and when asked to replace those 4 files, press skip.
+6. When Source SDK Base 2013 is done installing, restart Steam and then launch the game.
 
 P. S. This ReadMe was mostly copied from this repo https://github.com/NicknineTheEagle/TF2-Base
 
